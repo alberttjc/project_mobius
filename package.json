@@ -1,0 +1,27 @@
+{
+  "name": "project_mobius",
+  "version": "1.0.0",
+  "description": "Full Stack Development for Webcam Video Recording",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "Albert Tan",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "body-parse": "^0.1.0",
+    "cisco-vpn": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^9.0.1",
+    "mongodb": "^3.6.3"
+  },
+  "devDependencies": {
+    "mini-css-extract-plugin": "^1.3.3",
+    "nodemon": "^2.0.6"
+  }
+}
