@@ -8,7 +8,7 @@ export const reminders = [
 
 // instructions for Page Alpha
 export const alpha_page_instructions = [
-    { message: 'Before starting the study, please click "Allow" to let the website to access your webcam. Please do not, at any point, refersh your internet browser.'},
+    { message: 'Before starting the study, please click "Allow" to let the website to access your webcam. Please do not, at any point, refresh your internet browser.'},
     { message: 'In this stage, please position your webcam facing right in front of you and look at the Fetch Robot (shown on the left) while performing each gesture.'},
     { message: 'Remember, you have 5 seconds before the webcam starts recording. You only need to perform the gesture once! '},
 ]
@@ -43,7 +43,7 @@ export const alpha_gestures_instructions = [
 
 // instructions for Page Beta
 export const beta_page_instructions = [
-    { message: 'In this stage, please imitate gestures from the youtube playlist (shown on the left). Please do not, at any point, refersh your internet browser.'},
+    { message: 'In this stage, please imitate gestures from the youtube playlist (shown on the left). Please do not, at any point, refresh your internet browser.'},
     { message: 'You only need to do it once as the repetition is for demonstration purposes only!'},
     { message: 'Remember, you have 5 seconds before the webcam starts recording.'}
 ]
